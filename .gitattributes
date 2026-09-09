@@ -1,0 +1,12 @@
+*.bat text eol=crlf
+
+*.htm linguist-vendored
+package-lock.json linguist-generated
+public/* linguist-vendored
+* text=auto eol=lf
+
+yarn.lock linguist-generated
+*.md linguist-documentation
+*.py linguist-detectable
+**/*.py linguist-detectable
+build/* linguist-vendored
